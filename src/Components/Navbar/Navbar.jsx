@@ -9,7 +9,7 @@ const Navbar = () => {
         <p>SHOPPER</p>
       </div>
       <ul className="nav-menu">
-        <li>Shop</li>
+        <li>Shop <hr/></li>
         <li>Men</li>
         <li>Women</li>
         <li>Kids</li>
@@ -17,6 +17,7 @@ const Navbar = () => {
       <div className="nav-login-cart">
         <button>Login</button>
         <img src="" alt="Cart-icon" />
+        <div className="nav-cart-count">0</div>
       </div>
 
     </div>
