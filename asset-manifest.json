@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/E-commerce-Fullstack/static/css/main.513531f4.css",
-    "main.js": "/E-commerce-Fullstack/static/js/main.b5aa99ae.js",
+    "main.css": "/E-commerce-Fullstack/static/css/main.7737559d.css",
+    "main.js": "/E-commerce-Fullstack/static/js/main.40710b70.js",
     "static/js/453.670e15c7.chunk.js": "/E-commerce-Fullstack/static/js/453.670e15c7.chunk.js",
+    "static/media/hero-image.png": "/E-commerce-Fullstack/static/media/hero-image.a451f254ce41beb62a51.png",
+    "static/media/hand-icon.png": "/E-commerce-Fullstack/static/media/hand-icon.24d145d1734992f819a9.png",
     "index.html": "/E-commerce-Fullstack/index.html",
-    "main.513531f4.css.map": "/E-commerce-Fullstack/static/css/main.513531f4.css.map",
-    "main.b5aa99ae.js.map": "/E-commerce-Fullstack/static/js/main.b5aa99ae.js.map",
+    "main.7737559d.css.map": "/E-commerce-Fullstack/static/css/main.7737559d.css.map",
+    "main.40710b70.js.map": "/E-commerce-Fullstack/static/js/main.40710b70.js.map",
     "453.670e15c7.chunk.js.map": "/E-commerce-Fullstack/static/js/453.670e15c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.513531f4.css",
-    "static/js/main.b5aa99ae.js"
+    "static/css/main.7737559d.css",
+    "static/js/main.40710b70.js"
   ]
 }
