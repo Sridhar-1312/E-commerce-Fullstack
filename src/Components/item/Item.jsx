@@ -3,7 +3,7 @@ import './Item.css';
 
 export const Item = (props) => {
   return (
-    <div className='item-'>
+    <div className='item'>
         <img src={props.image} alt="" />
         <p>{props.name}</p>
        <div className="item-prices">
@@ -17,3 +17,4 @@ export const Item = (props) => {
     </div>
   )
 }
+export default Item
