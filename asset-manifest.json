@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/E-commerce-Fullstack/static/css/main.77faa767.css",
-    "main.js": "/E-commerce-Fullstack/static/js/main.3374648e.js",
+    "main.css": "/E-commerce-Fullstack/static/css/main.00abd52c.css",
+    "main.js": "/E-commerce-Fullstack/static/js/main.23bf148a.js",
     "static/js/453.670e15c7.chunk.js": "/E-commerce-Fullstack/static/js/453.670e15c7.chunk.js",
     "static/media/exclusive image.png": "/E-commerce-Fullstack/static/media/exclusive image.9029474dfc1c29977741.png",
     "static/media/product_2.jpg": "/E-commerce-Fullstack/static/media/product_2.fc6cd466643a73b92334.jpg",
     "static/media/product_1.jpg": "/E-commerce-Fullstack/static/media/product_1.9efbbd78308243dc604d.jpg",
+    "static/media/product_5.jpg": "/E-commerce-Fullstack/static/media/product_5.c661f364f6f54e3d54a7.jpg",
     "static/media/product_4.jpg": "/E-commerce-Fullstack/static/media/product_4.cf514c89c3f6df1f38cf.jpg",
     "static/media/hero-image.png": "/E-commerce-Fullstack/static/media/hero-image.a451f254ce41beb62a51.png",
     "static/media/product_3.jpg": "/E-commerce-Fullstack/static/media/product_3.a368923acac5a7d18977.jpg",
+    "static/media/product_7.jpg": "/E-commerce-Fullstack/static/media/product_7.125f31307ae55d97c77d.jpg",
+    "static/media/product_8.jpg": "/E-commerce-Fullstack/static/media/product_8.940dc4c384abe3026a79.jpg",
+    "static/media/product_6.jpg": "/E-commerce-Fullstack/static/media/product_6.ba49a6146ad9df2bfbdc.jpg",
     "static/media/hand-icon.png": "/E-commerce-Fullstack/static/media/hand-icon.24d145d1734992f819a9.png",
     "index.html": "/E-commerce-Fullstack/index.html",
-    "main.77faa767.css.map": "/E-commerce-Fullstack/static/css/main.77faa767.css.map",
-    "main.3374648e.js.map": "/E-commerce-Fullstack/static/js/main.3374648e.js.map",
+    "main.00abd52c.css.map": "/E-commerce-Fullstack/static/css/main.00abd52c.css.map",
+    "main.23bf148a.js.map": "/E-commerce-Fullstack/static/js/main.23bf148a.js.map",
     "453.670e15c7.chunk.js.map": "/E-commerce-Fullstack/static/js/453.670e15c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77faa767.css",
-    "static/js/main.3374648e.js"
+    "static/css/main.00abd52c.css",
+    "static/js/main.23bf148a.js"
   ]
 }
