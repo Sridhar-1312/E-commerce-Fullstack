@@ -3,6 +3,7 @@
   height: 60vh;
   display: flex;
   margin: auto;
+  margin-top: -200px;
   padding: 0px 140px;
   margin-bottom: 150px;
   background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
@@ -14,7 +15,7 @@
   flex-direction: column;
   justify-self: center;
 }
-.offers-left hl {
+.offers-left h1 {
   color: #171717;
   font-size: 80px;
   font-weight: 600;
@@ -44,6 +45,7 @@
   padding-top: 50px;
 }
 .offers-right img{
+  margin-top: -70px;
     width: 70%;
     height: 500px;
     object-fit: cover;
