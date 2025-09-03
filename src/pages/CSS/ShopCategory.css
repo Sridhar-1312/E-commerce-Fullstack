@@ -19,7 +19,15 @@
 /* Product image */
 .products img {
   width: 100%;
-  height: 250px;     /* fix product image height */
+  height: 500px;     /* fix product image height */
   object-fit: contain; /* show whole image without cropping */
   border-radius: 8px;
+}
+
+.Shopcategory-banner{
+  display: block;
+  margin: 1px 0;
+  height: 100px;
+  min-height: 750px;
+  min-width: 0;
 }
