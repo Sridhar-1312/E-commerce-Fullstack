@@ -29,6 +29,33 @@ const ProductDisplay = (props) => {
           <img src={dullstar_icon} alt="" />
           <p>(122)</p>
         </div>
+        <div className="productdisplay-right-prices">
+          <div className="productdisplay-right-price-old">
+            ${product.old_price}
+          </div>
+          <div className="productdisplay-right-price-new">
+            ${product.new_price}
+          </div>
+        </div>
+        <div className="productdisplay-right-description">
+          A classic denim jacket crafted from durable cotton with a button-up
+          front, chest pockets, and a timeless casual style — perfect for
+          layering in any season.
+        </div>
+        <div className="productdisplay-right-sizes">
+            <h1>Select Size</h1>
+        </div>
+        <div className="productdisplay-right-sizes">
+            <div>S</div>
+            <div>M</div>
+            <div>L</div>
+            <div>XL</div>
+            <div>XXL</div>
+        </div>
+        <button>ADD TO CART</button>
+        <p className="productdisplay-right-category"><span>Category: </span>Men ,  jackets, Denim jackets </p>
+        <p className="productdisplay-right-category"><span>Tags: </span>Modern, Latest </p>
+        
       </div>
     </div>
   );
