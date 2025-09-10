@@ -1,14 +1,14 @@
 import React from "react";
-import "./DescriptionBox.css";
+import './DescriptionBox.css';
 
 const DescriptionBox = () => {
   return (
     <div className="descriptionBox">
-      <div className="descriotionBox-navigator">
+      <div className="descriptionBox-navigator">
         <div className="descriptionBox-nav-box">Description</div>
-        <div className="descriptionBox-nav-box-fade">reviews (122)</div>
+        <div className="descriptionBox-nav-box fade ">Reviews (122)</div>
       </div>
-      <div className="desriptionbox-description">
+      <div className="descriptionBox-description">
         <p>
           E-commerce is an online platform for buying and selling products or
           services over the internet. It serves as a virtual marketplace where
