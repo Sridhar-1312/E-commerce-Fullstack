@@ -3,7 +3,7 @@ import "./CartItems.css";
 import { ShopContext } from "../../context/ShopContext";
 
 const CartItems = () => {
-  const { all_products, cartItems, removeFromCart } = useContext(ShopContext);
+  const { getTotalCartAmount,all_products, cartItems, removeFromCart } = useContext(ShopContext);
 
   return (
     <div className="CartItems">
@@ -28,13 +28,11 @@ const CartItems = () => {
                   {cartItems[e.id]}
                 </button>
                 <p>${e.new_price * cartItems[e.id]}</p>
-                <img
-                  src=""
-                  className="cartitems-remove-icon"
-                  onClick={() => removeFromCart(e.id)}
+                <img src="" className="cartitems-remove-icon"onClick={() => removeFromCart(e.id)}
                   alt="remove"
                 />
               </div>
+              <hr /> 
             </div>
           );
         }
@@ -46,7 +44,7 @@ const CartItems = () => {
           <div>
             <div className="cartitems-total-item">
               <p>Sub Total</p>
-              <p>${0}</p>
+              <p>${getTotalCartAmount()}</p>
             </div>
             <hr />
             <div className="cartitems-total-item">
@@ -56,7 +54,7 @@ const CartItems = () => {
             <hr />
             <div className="cartitems-total-item">
             <h3>Total</h3>
-            <h3>${0}</h3>
+            <h3>${getTotalCartAmount( )}</h3>
             </div>
           </div>
           <button>PROCEED TO CHECKOUT</button>
