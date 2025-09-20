@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/E-commerce-Fullstack/static/css/main.0a19686d.css",
+    "main.css": "/E-commerce-Fullstack/static/css/main.be0f7187.css",
     "main.js": "/E-commerce-Fullstack/static/js/main.2579e632.js",
     "static/js/453.54292a4b.chunk.js": "/E-commerce-Fullstack/static/js/453.54292a4b.chunk.js",
     "static/media/exclusive image.png": "/E-commerce-Fullstack/static/media/exclusive image.9029474dfc1c29977741.png",
@@ -45,12 +45,12 @@
     "static/media/product_20.jpg": "/E-commerce-Fullstack/static/media/product_20.9a7a6048a384e1134175.jpg",
     "static/media/hand-icon.png": "/E-commerce-Fullstack/static/media/hand-icon.24d145d1734992f819a9.png",
     "index.html": "/E-commerce-Fullstack/index.html",
-    "main.0a19686d.css.map": "/E-commerce-Fullstack/static/css/main.0a19686d.css.map",
+    "main.be0f7187.css.map": "/E-commerce-Fullstack/static/css/main.be0f7187.css.map",
     "main.2579e632.js.map": "/E-commerce-Fullstack/static/js/main.2579e632.js.map",
     "453.54292a4b.chunk.js.map": "/E-commerce-Fullstack/static/js/453.54292a4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a19686d.css",
+    "static/css/main.be0f7187.css",
     "static/js/main.2579e632.js"
   ]
 }
