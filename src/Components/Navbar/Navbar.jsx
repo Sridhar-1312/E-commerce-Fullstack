@@ -1,13 +1,22 @@
-import React, { useContext, useState } from 'react';
-import './Navbar.css';
-import { Link } from 'react-router-dom';
-import logo from '../Assets/logo..png';
-import cart_icon from '../Assets/Cart Icons.png';
-import { ShopContext } from '../../context/ShopContext';
+import React, { useContext, useRef, useState } from "react";
+import "./Navbar.css";
+import { Link } from "react-router-dom";
+import logo from "../Assets/logo..png";
+import cart_icon from "../Assets/Cart Icons.png";
+import { ShopContext } from "../../context/ShopContext";
+import nav_dropdown from "../Assets/dropdown_icon.png";
+
 
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
   const { getTotalCartItems } = useContext(ShopContext); // ✅ fixed here
+  const menuRef = useRef();
+
+
+  const dropdown_toggle = (e) => {
+    menuRef.current.classList.toggle('nav-menu-visible');
+    e.target.classList.toggle('open')
+  }
 
   return (
     <div className="navbar">
@@ -15,8 +24,8 @@ const Navbar = () => {
         <img src={logo} alt="shopping logo" />
         <p>SHOPPER</p>
       </div>
-
-      <ul className="nav-menu">
+      <img className="nav-dropdown" onClick={dropdown_toggle} src={nav_dropdown} alt="" />
+      <ul ref={menuRef} className="nav-menu">
         <li onClick={() => setMenu("shop")}>
           <Link style={{ textDecoration: "none" }} to={"/"}>
             Shop
