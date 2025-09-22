@@ -139,7 +139,7 @@ height: 18px;
 .navbar{
 padding: 10px 0px;
 }
- }
+ 
 .nav-dropdown{
     display: block;
     width: 30px;
@@ -157,4 +157,24 @@ top: 50px;
 }
 .nav-menu-visible{
     display: flex;
+}
+.nav-dropdown.open{
+    transform: rotate(90deg);
+}
+}
+@media (max-width:500px){
+.navbar{
+width: 8px Opx;
+gap: 0;
+}
+.nav-logo{
+transform: scale(0.8)
+}
+.nav-menu{
+    height: 70px;
+    top: 50px;
+}
+.nav-login-cart{
+    transform: scale(0.8);
+}
 }
