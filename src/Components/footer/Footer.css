@@ -67,3 +67,29 @@
     border-radius: 10px;
     background: #c7c7c7;
 }
+ @media(max-width: 800px) {
+    .footer {
+        gap: 30px;
+    }
+    .footer-logo h2 {
+        font-size: 28px;
+    }
+    .footer-links {
+        gap: 25px;
+        font-size: 16px;
+    }
+    .footer-social-icons {
+        gap: 12px;
+    }
+    .footer-icons-container img {
+        width: 30px;
+        height: 30px;
+    }
+    .footer-copyright {
+        font-size: 16px;
+        gap: 18px;
+    }
+    .footer-copyright hr {
+        width: 95%;
+    }
+}
