@@ -211,7 +211,7 @@ background: #fff;
   cursor: pointer;
   font-size: 14px;
   font-weight: 600;
-  transition: transform 0.2s, background 0.3s;
+  transition: transform 0.2s, background-color 0.3s;
 }
 .cartitems-promobox button:hover {
   background: #000;
