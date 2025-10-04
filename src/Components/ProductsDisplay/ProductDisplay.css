@@ -1,17 +1,17 @@
 .productdisplay {
   display: flex;
-  margin: 0px 170px;
+  margin: 0px 180px;
 }
 
 .productdisplay-left {
   display: flex;
-  gap: 17px;
+  gap: 18px;
 }
 
 .productdisplay-img-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 18px;
 }
 
 .productdisplay-img-list img {
@@ -35,25 +35,25 @@
 
 .productdisplay-right h1 {
   color: #3d3d3d;
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 700;
-  line-height: 48px;
+  line-height: 46px;
 }
 
 .productdisplay-right-stars {
   display: flex;
   align-items: center;
-  margin-top: 13px;
-  gap: 5px;
+  margin-top: 14px;
+  gap: 6px;
   color: #1c1c1c;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .productdisplay-right-prices {
   display: flex;
   margin: 40px 0px;
   gap: 30px;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
 }
 
@@ -69,14 +69,14 @@
 .productdisplay-right-sizes h1 {
   margin-top: 20px;
   color: #656565;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
 }
 
 .productdisplay-right-sizes {
   display: flex;
   margin: 10px 0px 30px;
-  gap: 20px;
+  gap: 22px;
 }
 
 .productdisplay-right-sizes div {
@@ -85,7 +85,7 @@
   border: 1px solid #ebebeb;
   border-radius: 5px;   /* smoother corners */
   cursor: pointer;
-  font-size: 14px;      /* smaller text */
+  font-size: 16px;      /* smaller text */
   font-weight: 500;
   transition: 0.2s ease;
 }
@@ -97,7 +97,7 @@
 .productdisplay-right button {
   padding: 20px 40px;
   width: 200px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: white;
   background: #ff4141;
@@ -108,7 +108,7 @@
 }
 
 .productdisplay-right-category {
-  margin-top: 10px;
+  margin-top: 12px;
   
 }
 
@@ -136,7 +136,7 @@
     align-items: center;
   }
   .productdisplay-left {
-    gap: 10px;
+    gap: 12px;
   }
   .productdisplay-main-img {
     width: 320px;
@@ -173,7 +173,7 @@
   }
   .productdisplay-right button {
     width: 150px;
-    padding: 12px 20px;
+    padding: 14px 20px;
     font-size: 14px;
   }
 }
@@ -186,7 +186,7 @@
   }
   .productdisplay-left {
     flex-direction: column;
-    gap: 5px;
+    gap: 6px;
     align-items: center;
   }
   .productdisplay-img-list img {
@@ -208,7 +208,7 @@
   }
   .productdisplay-right-prices {
     font-size: 14px;
-    gap: 8px;
+    gap: 10px;
     margin: 20px 0px;
   }
   .productdisplay-right-sizes div {
@@ -217,8 +217,8 @@
   }
   .productdisplay-right button {
     width: 100px;
-    padding: 8px 10px;
-    font-size: 12px;
-    margin-bottom: 20px;
+    padding: 6px 10px;
+    font-size: 14px;
+    margin-bottom: 22px;
   }
 }
