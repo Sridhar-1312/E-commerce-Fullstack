@@ -15,14 +15,10 @@ const DescriptionBox = () => {
           businesses and individuals can showcase their products, interact with
           customers, and conduct transactions without the need for a physical
           presence. E-commerce websites have gained immense popularity due to
-          their convenience, accessibility, and global reach.
+          their convenience, accessibility, and global reaches.
         </p>
         <p>
-          E-commerce websites typically display products or services with
-          detailed descriptions, images, prices, and any available variations
-          (e.g., sizes, colors). Each product usually has its own description
-          page, which provides more information such as specifications, customer
-          reviews, shipping details, and return policies.
+        Portfolio websites usually showcase an individuals or companys work, achievements, and skills. They often include project galleries, case studies, client testimonials, and an “About” section. Each project typically has its own page with detailed descriptions, visuals, technologies used, and outcomes to demonstrate expertise and experience.
         </p>
       </div>
     </div>
