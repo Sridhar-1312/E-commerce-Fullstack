@@ -10,12 +10,8 @@ const DescriptionBox = () => {
       </div>
       <div className="descriptionBox-description">
         <p>
-          E-commerce is an online platform for buying and selling products or
-          services over the internet. It serves as a virtual marketplace where
-          businesses and individuals can showcase their products, interact with
-          customers, and conduct transactions without the need for a physical
-          presence. E-commerce websites have gained immense popularity due to
-          their convenience, accessibility, and global reaches.
+        E-commerce refers to the process of purchasing and selling goods or services through digital platforms. It allows businesses and consumers to connect online, making transactions faster and more efficient. Through e-commerce websites, users can explore product catalogs, compare prices, read reviews, and complete purchases with just a few clicks. This modern form of trade has transformed traditional shopping by offering convenience, variety, and accessibility to a global audience.
+
         </p>
         <p>
         Portfolio websites usually showcase an individuals or companys work, achievements, and skills. They often include project galleries, case studies, client testimonials, and an “About” section. Each project typically has its own page with detailed descriptions, visuals, technologies used, and outcomes to demonstrate expertise and experience.
