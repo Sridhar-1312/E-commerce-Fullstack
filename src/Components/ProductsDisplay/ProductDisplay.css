@@ -169,12 +169,12 @@
   }
   .productdisplay-right-prices {
     font-size: 18px;
-    gap: 15px;
+    gap: 16px;
   }
   .productdisplay-right button {
     width: 100px;
     padding: 14px 20px;
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
